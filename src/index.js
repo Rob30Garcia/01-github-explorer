@@ -1,5 +1,5 @@
-const test = {
-  name: "Robert"
-}
+import "react";
 
-console.log(test.name);
+function test() {
+  return <h1>Hello</h1>;
+}
