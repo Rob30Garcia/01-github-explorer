@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { RepositoryItem } from "./RepositoryItem";
 
+import '../styles/repositories.scss';
+
 //https://api.github.com/orgs/rocketseat/repos
 
 export function RepositoryList() {
@@ -13,7 +15,7 @@ export function RepositoryList() {
   }, []);
 
   return (
-    <section>
+    <section className="repository-list">
       <h1>Lista de repositório</h1>
 
       <ul>
